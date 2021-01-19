@@ -1,11 +1,14 @@
 Project:
-Custom integration for Stripes PaymentIntents API using Node and React. Overall purpose is to generate a friction report on the documentation provided and the journey of building a custom integration.  
+Custom integration for Stripes PaymentIntents API using Node and React. Overall purpose of the project is to generate a friction report on the documentation provided and the journey of building a custom integration.   
 
-Goals: 
+Goals: With this repo you should be able to complete the following steps, 
+
 1. Create a PaymentIntent on the server
 2. Collect payment method details on the client
 3. Submit the payment to Stripe from the client
 4. Asynchronously fulfill the customer’s order
+
+
 
 Client side code: app.js
 To get it up and running input
@@ -23,7 +26,7 @@ Environment variable used to store both the public and secert key, this can be v
 
 Ensure stripe is installed with -> npm install --save stripe
 
-Once you ahve localhost3000 up and running and it's communicating with the server side code, it's time to run 3 test scenarios: 
+Once you have localhost3000 up and running and it's communicating with the server side code, it's time to run 3 test scenarios: 
 
 1. Integration handles payments that don't require authentication -> Run 4242424242424242 in card details, plus any digits for MM/YY + CVC 
 2. Integration handles payments that require authentication -> Run 4000002500003155 in card details, plus any digits for MM/YY + CVC 
