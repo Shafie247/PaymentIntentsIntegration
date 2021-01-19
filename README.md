@@ -1,5 +1,5 @@
 Project:
-Shafie's stripe intergration for the payments intent API using Node and React. Overall purpose is to generate a friction report on the documentation + journey of building a custom intergration.  
+Custom integration for Stripes PaymentIntents API using Node and React. Overall purpose is to generate a friction report on the documentation provided and the journey of building a custom integration.  
 
 Goals: 
 1. Create a PaymentIntent on the server
