@@ -10,27 +10,31 @@ Goals: With this repo you should be able to complete the following steps,
 
 
 
-Client side code: app.js
+Client side code can be found under app.js
+
 To get it up and running input
 //npm install
 //npm start 
 
 Once npm is up and running navigate to localhost:3000 
 
-Server side code: server.js
+Server side code can be found in the folder server.js
 To get it up and running input
 //npm install 
 //npm run start-backend
 
-Environment variable used to store both the public and secert key, this can be viewed/updated in .env  
-
-Ensure stripe is installed with -> npm install --save stripe
 
 Once you have localhost3000 up and running and it's communicating with the server side code, it's time to run 3 test scenarios: 
 
 1. Integration handles payments that don't require authentication -> Run 4242424242424242 in card details, plus any digits for MM/YY + CVC 
 2. Integration handles payments that require authentication -> Run 4000002500003155 in card details, plus any digits for MM/YY + CVC 
 3. Your integration handles card declines codes like insufficient funds -> Run 4000000000009995 in card details, plus any digits for MM/YY + CVC 
+
+Additional Notes:
+
+Environment variable used to store both the public and secert key, this can be viewed/updated in .env  
+
+Ensure stripe is installed with -> npm install --save stripe
 
 
 Webhook: 
