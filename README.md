@@ -23,6 +23,7 @@ To get it up and running input
 //npm install 
 //npm run start-backend
 
+To get the frontend to communicate with the server -> run node server.js 
 
 Once you have localhost3000 up and running and it's communicating with the server side code, it's time to run 3 test scenarios: 
 
